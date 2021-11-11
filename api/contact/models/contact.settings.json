@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "contacts",
   "info": {
-    "name": "Contact"
+    "name": "Contact",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,9 +18,6 @@
     "LastName": {
       "type": "string"
     },
-    "Phone": {
-      "type": "integer"
-    },
     "Email": {
       "type": "email"
     },
@@ -28,6 +26,9 @@
     },
     "Message": {
       "type": "text"
+    },
+    "Phone": {
+      "type": "string"
     }
   }
 }
