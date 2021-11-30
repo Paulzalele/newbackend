@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blog_sliders",
+  "info": {
+    "name": "Slider",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "Slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.slide"
+    }
+  }
+}

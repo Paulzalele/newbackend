@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_video_link_video_links",
+  "info": {
+    "name": "VideoLink",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "VideoUrl": {
+      "type": "string"
+    }
+  }
+}

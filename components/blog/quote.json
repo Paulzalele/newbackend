@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blog_quotes",
+  "info": {
+    "name": "Quote",
+    "icon": "quote-right"
+  },
+  "options": {},
+  "attributes": {
+    "Quote": {
+      "type": "text"
+    },
+    "Author": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "link_to_biography": {
+      "type": "string"
+    }
+  }
+}
