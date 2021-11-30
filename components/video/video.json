@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_video_videos",
+  "info": {
+    "name": "Video",
+    "icon": "play-circle"
+  },
+  "options": {},
+  "attributes": {
+    "HLSURL": {
+      "type": "string"
+    },
+    "WebPURL": {
+      "type": "string"
+    }
+  }
+}

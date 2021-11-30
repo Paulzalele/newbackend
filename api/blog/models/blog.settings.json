@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "Blog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "string"
+    },
+    "BlogDate": {
+      "type": "date"
+    },
+    "ReadTime": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "video.video"
+    }
+  }
+}
