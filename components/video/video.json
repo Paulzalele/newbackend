@@ -2,14 +2,15 @@
   "collectionName": "components_video_videos",
   "info": {
     "name": "Video",
-    "icon": "play-circle"
+    "icon": "play-circle",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "HLSURL": {
+    "hls_url": {
       "type": "string"
     },
-    "WebPURL": {
+    "webp_url": {
       "type": "string"
     }
   }

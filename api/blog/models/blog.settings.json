@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "blogs",
   "info": {
-    "name": "Blog"
+    "name": "Blog",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,25 +12,42 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "MetaDescription": {
+    "meta": {
       "type": "string"
     },
-    "BlogDate": {
+    "blog_date": {
       "type": "date"
     },
-    "ReadTime": {
+    "read_time": {
       "type": "string"
     },
-    "Content": {
+    "content": {
       "type": "richtext"
     },
-    "Video": {
+    "video": {
       "type": "component",
       "repeatable": false,
       "component": "video.video"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "pin": {
+      "type": "boolean"
+    },
+    "published": {
+      "type": "datetime"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "published"
+      ],
+      "default": "draft"
     }
   }
 }
