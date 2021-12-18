@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landingpages",
+  "info": {
+    "name": "landingpage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "text"
+    },
+    "article_date": {
+      "type": "date"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "read_time": {
+      "type": "string"
+    },
+    "bodycontent": {
+      "type": "dynamiczone",
+      "components": [
+        "landingpage.content"
+      ]
+    }
+  }
+}

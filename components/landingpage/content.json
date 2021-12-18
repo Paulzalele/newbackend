@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_landingpage_contents",
+  "info": {
+    "name": "content",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landingpage.images"
+    }
+  }
+}
