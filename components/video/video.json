@@ -12,6 +12,9 @@
     },
     "webp_url": {
       "type": "string"
+    },
+    "iframe": {
+      "type": "string"
     }
   }
 }
